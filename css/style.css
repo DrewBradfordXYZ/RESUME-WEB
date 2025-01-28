@@ -70,6 +70,12 @@ img {
   margin-bottom: 50px;
 }
 
+.hero .container {
+  background: url("../images/profile-pic.png") no-repeat;
+  background-size: contain;
+  background-position: right center;
+  margin-right: 100px;
+}
 .hero .hero-content {
   width: 70%;
 }
