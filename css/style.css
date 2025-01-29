@@ -71,13 +71,22 @@ img {
 }
 
 .hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.hero .container .hero-profile {
   background: url("../images/profile-pic.png") no-repeat;
   background-size: contain;
-  background-position: right center;
-  margin-right: 100px;
+  background-position: left center;
+  flex-grow: 1;
+  min-height: 200px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 .hero .hero-content {
-  width: 70%;
+  width: 65%;
 }
 
 .hero .hero-text {
