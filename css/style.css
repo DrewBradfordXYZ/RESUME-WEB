@@ -70,14 +70,14 @@ img {
   margin-bottom: 50px;
 }
 
-.hero .container {
+.hero .container .hero-row-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
 }
 
 .hero .container .hero-profile {
-  background: url("../images/profile-pic.png") no-repeat;
+  background: url("../media/profile-pic.png") no-repeat;
   background-size: contain;
   background-position: left center;
   flex-grow: 1;
@@ -101,6 +101,36 @@ img {
 .hero .hero-buttons a:last-child {
   margin-left: 20px;
 }
+
+.hero .hero-logos {
+  background: url("/media/hero-logos.png") no-repeat;
+  background-size: contain;
+  background-position: left center;
+  min-height: 100px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.work-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #4a4a4a;
+}
+
+.work-header .btn {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 5px 20px;
+  color: #4a4a4a;
+  cursor: default;
+}
+
+/* Video */
+.video-content {
+  padding: 10px 0 40px;
+}
+
 /* Utility Classes */
 
 .container {
@@ -131,6 +161,11 @@ img {
 .btn-primary {
   background: var(--primary-color);
   color: #fff;
+}
+
+.btn-light {
+  background: #fff;
+  color: var(--dark-color);
 }
 
 .btn-dark {
@@ -176,4 +211,14 @@ img {
 
 .text-center {
   text-align: center;
+}
+
+/* Background */
+.bg-grey {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+.bg-light {
+  background-color: var(--light-color);
+  color: var(--dark-color);
 }
