@@ -148,7 +148,7 @@ main aside {
 
 main aside .project-nav {
   position: sticky;
-  top: 8rem;
+  top: 7.3rem;
   width: 100%;
   background: #fff;
   border-radius: 16px;
@@ -176,6 +176,51 @@ main aside .project-nav ul li a {
 
 main aside .project-nav ul li a:hover {
   color: var(--primary-color);
+}
+
+/* Project Text */
+main .project-description {
+  width: 85%;
+  margin-bottom: 30px;
+}
+
+.project-step-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  /* align-items: start; */
+}
+.project-step {
+  position: relative;
+}
+.number-circle {
+  height: 35px;
+  width: 35px;
+  background: var(--primary-color);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.project-step-content {
+  background: #fff;
+  color: #111;
+  border-radius: 16px;
+  box-shadow: 4px 3px 5px rgb(201, 201, 201);
+  padding: 25px;
+  margin: 15px;
+}
+.item {
+  background: #fff;
+  color: #111;
+  border-radius: 16px;
+  box-shadow: 4px 3px 5px rgb(201, 201, 201);
+  padding: 20px;
 }
 
 /* Video */
