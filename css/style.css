@@ -168,13 +168,15 @@ main aside .project-nav h4 {
   border-bottom: 1px solid #333;
 }
 
-main aside .project-nav ul li a {
+main aside .project-nav ul li a,
+main aside .project-nav h4 a {
   padding: 5px 0px;
   display: block;
   transition: 0.5s;
 }
 
-main aside .project-nav ul li a:hover {
+main aside .project-nav ul li a:hover,
+main aside .project-nav h4 a:hover {
   color: var(--primary-color);
 }
 
@@ -271,6 +273,11 @@ main .project-description {
 }
 
 /* Text Classes */
+
+h4 {
+  font-weight: 600;
+}
+
 .text-xxl {
   font-size: 3rem;
   line-height: 1.2;
@@ -314,6 +321,12 @@ main .project-description {
   display: block;
   position: relative;
   top: -120px;
+  visibility: hidden;
+}
+.anchor-projects {
+  display: block;
+  position: relative;
+  top: -85px;
   visibility: hidden;
 }
 
