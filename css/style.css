@@ -190,7 +190,6 @@ main .project-description {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  /* align-items: start; */
 }
 .project-step {
   position: relative;
@@ -206,23 +205,35 @@ main .project-description {
   border-radius: 50%;
   font-weight: 600;
   position: absolute;
+  z-index: 200;
   top: 0;
   left: 0;
 }
 .project-step-content {
   background: #fff;
   color: #111;
+  /* border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px; */
   border-radius: 16px;
   box-shadow: 4px 3px 5px rgb(201, 201, 201);
-  padding: 25px;
   margin: 15px;
+  display: flex;
+  flex-direction: column;
 }
-.item {
-  background: #fff;
-  color: #111;
-  border-radius: 16px;
-  box-shadow: 4px 3px 5px rgb(201, 201, 201);
-  padding: 20px;
+.project-step-header {
+  border-bottom: 2px solid #d6d6d6;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.project-step-header .step-icon {
+  margin: 6px;
+  margin-right: 13px;
+}
+
+.project-step-content p {
+  padding: 25px;
+  padding-top: 10px;
 }
 
 /* Video */
