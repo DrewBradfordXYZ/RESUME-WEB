@@ -225,7 +225,7 @@ main .project-description {
 
 /* Video */
 .video-content {
-  padding: 10px 0 40px;
+  padding: 10px 0 20px;
 }
 
 /* Utility Classes */
@@ -310,6 +310,13 @@ main .project-description {
   text-align: center;
 }
 
+.anchor {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+}
+
 /* Background */
 .bg-grey {
   background-color: var(--light-color);
@@ -318,4 +325,9 @@ main .project-description {
 .bg-light {
   background-color: var(--light-color);
   color: var(--dark-color);
+}
+
+hr.solid {
+  border: 0.5px solid #e6e6e6;
+  margin: 40px 0px;
 }
