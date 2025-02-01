@@ -116,6 +116,8 @@
                   Document variables imported at this stage integrate with the <a href="#document-generator">Document
                     Generator</a> tool mentioned below.
                   No coding is required to complete this step.</p>
+                <img src="media/service-1.png" alt="Import Data into QuickBase" class="project-step-image"
+                  style="margin-left: 80px; margin-right: 80px;">
               </div>
             </div>
             <div class="project-step">
@@ -125,13 +127,15 @@
                 <div class="project-step-header">
                   <img src="media/javascript-small.png" alt="JavaScript Icon" class="step-icon">
                 </div>
-                <p>Users of the UI can then scope services by assigning task quantities, add co-provider information,
+                <p>Users of the UI scope services by assigning task quantities, add co-provider information,
                   additional
                   custom roles and expenses.</p>
+                <img src="media/service-2.png" alt="Generate front end UI" class="project-step-image">
               </div>
             </div>
           </div>
           <div class="video-content">
+            <p>Video demonstation of the front end user interface.</p>
             <img src="media/service-calc-video-preview.png" alt="video" class="video-preview" />
           </div>
 
@@ -154,7 +158,9 @@
                 <div class="project-step-header">
                   <img src="media/quickbase-small.png" alt="JavaScript Icon" class="step-icon">
                 </div>
-                <p>Document sections are stored and written in QuickBase Rich Text Fields which are extracted as HTML
+                <p>Document section content is stored, written and editable in QuickBase. Modifications are done
+                  in a convenient WYSIWG editor that writes HTML behind the scenes. Techinical
+                  experience is not needed to modify the dynamic document content.
                 </p>
               </div>
             </div>
@@ -164,7 +170,10 @@
                 <div class="project-step-header">
                   <img src="media/javascript-small.png" alt="JavaScript Icon" class="step-icon">
                 </div>
-                <p>Convert HTML to DOCX and store the document in QuickBase.</p>
+                <p>The current state of the Bid runs a set of rules generating a custom tailored
+                  legal document that gets attached to the Bid in QuickBase. The document is ready to be signed by both
+                  parties.</p>
+                <img src="media/document-gen-image2.png" alt="Import Data into QuickBase" class="project-step-image">
               </div>
             </div>
           </div>
@@ -173,10 +182,10 @@
         <article>
           <a class="anchor" id="bid-generator"></a>
           <h2 class="text-lg">Bid Generator</h2>
-          <p class="project-description">A tool that generates complicated service bundles with a simple form button.
-            The result is a completed bid that is ready for approval. The diagram below is a simplified illustration
-            of
-            this process.</p>
+          <p class="project-description">A tool that generates service bundles based on a cost factor analysis driven by
+            simple form selections.
+            The result is a completed bid that is ready for approval. The steps below illustrate this process.
+          </p>
           <div class="project-step-container">
             <div class="project-step">
               <div class="number-circle">1</div>
@@ -184,7 +193,9 @@
                 <div class="project-step-header">
                   <img src="media/quickbase-small.png" alt="JavaScript Icon" class="step-icon">
                 </div>
-                <p>A button launches the program with a code page after users make their form selections.
+                <p>Users are prompted to fill out a QuickBase form of predefined drop down selections. The Save button
+                  launches
+                  the JavaScript program that executes step 2 and 3.
                 </p>
               </div>
             </div>
@@ -194,7 +205,10 @@
                 <div class="project-step-header">
                   <img src="media/javascript-small.png" alt="JavaScript Icon" class="step-icon">
                 </div>
-                <p>Cost factor analysis determine the service scope based off what type it is.</p>
+                <p>Cost factor analysis based on service type calculate the scope of the service. This is repeated for
+                  each
+                  associated service.</p>
+                <img src="media/bid-gen-image2.png" alt="Cost Factor Analysis" class="project-step-image">
               </div>
             </div>
             <div class="project-step">
@@ -203,7 +217,10 @@
                 <div class="project-step-header">
                   <img src="media/javascript-small.png" alt="JavaScript Icon" class="step-icon">
                 </div>
-                <p>Each service gets added to a Bid which is now ready for approval.</p>
+                <p>Services are added to the Bid with milestones attached. The Bid is now ready for approval
+                  workflows.</p>
+                <img src="media/bid-gen-image3.png" alt="Add Services to Bid" class="project-step-image"
+                  style="margin-left: 60px; margin-right: 80px;">
               </div>
             </div>
           </div>
@@ -213,8 +230,7 @@
           <a class="anchor" id="risk-category-matrix"></a>
           <h2 class="text-lg">Risk Category Matrix</h2>
           <p class="project-description">
-            A risk category matrix to assign, measure and flag bids that otherwise would have slipped through causing
-            a
+            A risk category matrix to assign, measure and flag risky Bids that otherwise would have caused a
             financial loss.
           </p>
           <div class="project-step-container">
@@ -224,16 +240,28 @@
                 <div class="project-step-header">
                   <img src="media/quickbase-small.png" alt="JavaScript Icon" class="step-icon">
                 </div>
-                <p>A simplified matrix diagram that is written in a QuickBase Formula Field to assign a risk category.
+                <p>This illustrates a simplified diagrom of the matrix that assigns a
+                  risk category to a Bid. Built with native QuickBase tools and requires no button to be
+                  pressed.
                 </p>
+                <img src="media/risk-cat-image1.png" alt="Matrix algorithm illustration" class="project-step-image">
               </div>
             </div>
           </div>
-          <hr class="solid">
         </article>
-
       </div>
   </main>
+  <footer>
+    <div class="container">
+      <p>
+        Drew Bradford <br />
+        Middletown New Jersey, 07748 <br />
+        <a href="tel:+19173733131">917.373.3131</a> <br />
+        <a href="mailto:drewbradfordxyz@gmail.com">drewbradfordxyz@gmai.com </a> <br />
+        <a href="https://www.linkedin.com/in/dbxyz/" target="_blank">www.linkedin.com/in/dbxyz</a>
+      </p>
+    </div>
+  </footer>
   <script src="js/main.js"></script>
 </body>
 

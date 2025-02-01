@@ -119,6 +119,7 @@ main .container {
   display: grid;
   grid-template-columns: 1fr 230px;
   gap: 20px;
+  padding-bottom: 80px;
 }
 
 main .work-header {
@@ -180,7 +181,7 @@ main aside .project-nav h4 a:hover {
   color: var(--primary-color);
 }
 
-/* Project Text */
+/* Project */
 main .project-description {
   width: 85%;
   margin-bottom: 30px;
@@ -244,10 +245,28 @@ main .project-description {
   text-decoration: underline;
   opacity: 0.8;
 }
+.project-step-content .project-step-image {
+  margin: 0px 60px;
+  margin-bottom: 25px;
+}
 
 /* Video */
 .video-content {
   padding: 10px 0 20px;
+}
+.video-content p {
+  margin-bottom: 25px;
+}
+
+footer {
+  background: var(--dark-color);
+  color: #fff;
+}
+footer .container p {
+  padding: 40px 20px;
+}
+footer a {
+  color: #fff;
 }
 
 /* Utility Classes */
