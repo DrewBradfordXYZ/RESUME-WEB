@@ -1,0 +1,2 @@
+Started render process: /app/bin/melt -progress /var/tmp/kdenlive-iwGuId-1.mlt
+Qt: Session management error: Could not open network socket[libx264 @ 0x7b8b240019c0] height not divisible by 2 (1322x959)Rendering of /home/drew/Projects/RESUME-WEB/media/ServiceCalcDemo.mp4 aborted, resulting video will probably be corrupted.
