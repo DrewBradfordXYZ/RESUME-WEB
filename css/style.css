@@ -195,7 +195,7 @@ main .project-description {
 .project-step {
   position: relative;
 }
-.project-step-calc-video {
+.project-step-wide {
   grid-column: 1 / 3;
 }
 .number-circle {
@@ -251,6 +251,8 @@ main .project-description {
 .project-step-content .project-step-image {
   margin: 0px 60px;
   margin-bottom: 25px;
+  max-width: 200px;
+  max-height: 300px;
 }
 
 /* Video */
@@ -386,6 +388,5 @@ hr.solid {
   margin: 40px 0px;
 }
 .highlight {
-  /* color: var(--primary-color); */
   text-decoration: underline;
 }
