@@ -40,10 +40,16 @@ document.addEventListener("DOMContentLoaded", function () {
   // Highlighting for projects
   // When a new project is added, this needs to be updated.
   linkHighlighting(
-    "service-task-calculator",
+    "service-task-calc-nav-highlight",
     'a[href="#service-task-calculator"]'
   );
-  linkHighlighting("document-generator", 'a[href="#document-generator"]');
-  linkHighlighting("bid-generator", 'a[href="#bid-generator"]');
-  linkHighlighting("risk-category-matrix", 'a[href="#risk-category-matrix"]');
+  linkHighlighting(
+    "document-generator-nav-highlight",
+    'a[href="#document-generator"]'
+  );
+  linkHighlighting("bid-generator-nav-highlight", 'a[href="#bid-generator"]');
+  linkHighlighting(
+    "risk-category-matrix-nav-highlight",
+    '[href="#risk-category-matrix"]'
+  );
 });
