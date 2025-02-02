@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
           // observer options to change when the
           // highlighting occurs
           // e.g., when 10% or 75% of the element is visible
-          threshold: 0.5, // trigger when 50% of the target is visible
+          threshold: 0.3, // trigger when 50% of the target is visible
         }
       );
 
