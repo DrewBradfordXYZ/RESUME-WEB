@@ -607,6 +607,9 @@ hr.solid {
     margin-top: 20px;
     margin-left: 0px;
   }
+  .hero .hero-skill-logo-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
   .hero .hero-skill-logo-container .skill-logo img {
     height: 40px;
   }
