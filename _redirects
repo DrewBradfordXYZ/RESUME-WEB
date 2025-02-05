@@ -1,2 +1,2 @@
 # Redirect www to non-www
-www.drewbradford.xyz/* drewbradford.xyz/:splat 301!
+https://www.drewbradford.xyz/* https://drewbradford.xyz/:splat 301!
