@@ -183,16 +183,22 @@ main aside .project-nav {
   box-shadow: 4px 3px 5px rgb(201, 201, 201);
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 20px;
   text-align: justify;
   text-align-last: right;
 }
 
 main aside .project-nav h4 {
+  margin-top: 10px;
   padding-bottom: 7px;
   margin-bottom: 10px;
   border-bottom: 1px solid #333;
+}
+
+main aside .project-nav h5 {
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 main aside .project-nav ul li a,
@@ -203,13 +209,17 @@ main aside .project-nav h4 a {
 }
 
 main aside .project-nav ul li a:hover,
-main aside .project-nav h4 a:hover {
+main aside .project-nav h4 a:hover,
+main aside .project-nav h5 a:hover {
   color: var(--primary-color);
 }
 
 /* Project */
 article .project-header {
   margin-left: 13px;
+}
+article .project-header h4 {
+  padding-bottom: 20px;
 }
 main .project-description {
   width: 85%;
@@ -289,6 +299,10 @@ main .project-description {
 }
 .project-step-content .step-image-container img {
   width: 180px;
+  margin-bottom: 30px;
+}
+.project-step-container .step-image-container .large-image {
+  width: 90%;
   margin-bottom: 30px;
 }
 
