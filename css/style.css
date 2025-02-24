@@ -591,7 +591,8 @@ hr.solid {
     height: 50px;
   }
 
-  .projects h2 {
+  .projects h2,
+  .projects h4 {
     text-align: center;
   }
 
