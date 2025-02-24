@@ -52,6 +52,10 @@ document.addEventListener("DOMContentLoaded", function () {
     "risk-category-matrix-nav-highlight",
     '[href="#risk-category-matrix"]'
   );
+  linkHighlighting(
+    "quickbase-codepages-nav-highlight",
+    '[href="#quickbase-codepages"]'
+  );
 });
 
 // Mobile Menu
