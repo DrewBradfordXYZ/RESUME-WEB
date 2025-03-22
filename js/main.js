@@ -52,6 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "risk-category-matrix-nav-highlight",
     '[href="#risk-category-matrix"]'
   );
+  linkHighlighting("quickbase-js-nav-highlight", '[href="#quickbase-js"]');
   linkHighlighting(
     "quickbase-codepages-nav-highlight",
     '[href="#quickbase-codepages"]'
