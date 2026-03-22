@@ -54,8 +54,8 @@ document.addEventListener("DOMContentLoaded", function () {
   );
   linkHighlighting("quickbase-js-nav-highlight", '[href="#quickbase-js"]');
   linkHighlighting(
-    "quickbase-codepages-nav-highlight",
-    '[href="#quickbase-codepages"]'
+    "quickbase-go-nav-highlight",
+    '[href="#quickbase-go"]'
   );
 });
 
